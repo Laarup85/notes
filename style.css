@@ -1,6 +1,7 @@
 * {
-    /* padding: 0;
-    margin: 0; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -30,4 +31,8 @@ main ul a {
 
 .m-section-title {
     text-transform: capitalize;
+}
+
+code {
+    border: 1px solid grey;
 }
