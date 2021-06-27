@@ -25,11 +25,13 @@ function generateItem(textstring, id) {
   section.id = id;
   section.appendChild(h1);
 
+  const ul = document.createElement('ul');
   textstring.split('\n').forEach((item) => {
-    const paragraph = document.createElement('p');
-    paragraph.innerHTML = item;
-    section.appendChild(paragraph);
+    const li = document.createElement('li');
+    li.innerHTML = item;
+    ul.appendChild(li);
   });
+  section.appendChild(ul);
 
   const main = document.querySelector("main");
   main.appendChild(section);
