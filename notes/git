@@ -1,1 +1,1 @@
-otsi commiti osalise nime järgi- git log --all --grep='2259'
+otsi commiti osalise nime järgi: git log --all --grep='2259'
