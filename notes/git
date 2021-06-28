@@ -1,3 +1,1 @@
-olen git fail 
-#bold siin on bold# märkmed giti kohta
-järgmine
+otsi commiti osalise nime järgi- git log --all --grep='2259'
