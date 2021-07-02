@@ -1,1 +1,2 @@
 otsi commiti osalise nime järgi: git log --all --grep='2259'
+muuda viimane commit message: git commit --amend -m "new_message"
