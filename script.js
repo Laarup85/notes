@@ -1,4 +1,4 @@
-const noteDocuments = ["git", "data-structures", "typescript", "javascript", "regex"];
+const noteDocuments = ["git", "data-structures", "typescript", "javascript", "regex", "vim"];
 
 noteDocuments.forEach((document) => {
     try {
